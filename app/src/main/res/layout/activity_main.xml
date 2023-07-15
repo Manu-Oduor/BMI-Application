@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="BMI CALCULATOR"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height(meters)"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        />
+    <EditText
+        android:id="@+id/heighttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="8"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:hint="Enter Height"
+        android:textColorHint="#A4A4A4"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight(kg)"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        />
+
+    <EditText
+        android:id="@+id/weighttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="number"
+        android:hint="Enter Weight"
+        android:textColorHint="#A4A4A4"
+        android:textColor="@color/black"
+        android:ems="8"
+        android:layout_marginTop="12dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your BMI:"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/BMIresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="12dp"
+        />
+
+    <TextView
+        android:id="@+id/BMIcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/CalculateBmiBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:backgroundTint="#49B1F2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/ClearBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:backgroundTint="#49B1F2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="18dp"/>
+
+
+
+</LinearLayout>
