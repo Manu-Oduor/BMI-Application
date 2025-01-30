@@ -1,5 +1,11 @@
 A simple BMI Application 😁😁😁
-![image1](https://github.com/user-attachments/assets/70a76186-b10f-49e0-a0c5-cf11330864b0)
-![img2](https://github.com/user-attachments/assets/61365c0c-27c6-49b1-a0b0-99f1a2344579)
-![img1](https://github.com/user-attachments/assets/7eb722a4-88bc-4b5c-8d93-3fe3369b7925)
-![img5](https://github.com/user-attachments/assets/86971f51-38e8-4d07-96da-05b903bac019)
+
+
+![image1](https://github.com/user-attachments/assets/2308b29c-acf9-4998-8682-c3c376fb1026)
+
+![img1](https://github.com/user-attachments/assets/56a0ec47-03e5-4a53-9a47-0ae9188e4971)
+
+![img2](https://github.com/user-attachments/assets/5aceba4a-2114-4057-b5b8-a80e6e0e5228)
+
+![img5](https://github.com/user-attachments/assets/4c8638cf-9804-454c-ba51-4edb525ee6e1)
+
