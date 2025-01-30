@@ -1,4 +1,4 @@
-A simple BMI Application 😁😁😁
+A simple BMI Application 😁
 
 
 ![image1](https://github.com/user-attachments/assets/2308b29c-acf9-4998-8682-c3c376fb1026)
